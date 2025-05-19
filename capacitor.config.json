@@ -1,0 +1,20 @@
+{
+  "appId": "com.badsiliconlabs.sdroid",
+  "appName": "S-Droid",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  },
+  "server": {
+    "androidScheme": "http",
+    "allowNavigation": [
+      "tmhome.tplinkdns.com:*",
+      "localhost:*"
+    ]
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
